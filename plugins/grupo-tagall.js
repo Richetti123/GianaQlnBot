@@ -6,7 +6,7 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
   }
   const pesan = args.join` `;
 let oi = `*@𝗴𝗶𝗮𝗻𝗮𝗾𝗹𝗻* ${pesan}`
-let teks = `*𝗔𝗰𝘁𝗶𝘃𝗲𝗻𝘀𝗲 𝗣𝘃𝘁𝗮𝘀 *\n\n${oi}\n*MENCIONES:*\n`
+let teks = `*𝗔𝗰𝘁𝗶𝘃𝗲𝗻𝘀𝗲 𝗣𝘃𝘁𝗮𝘀*\n\n${oi}\n*MENCIONES:*\n`
 for (let mem of participants) {
 teks += `🍓 @${mem.id.split('@')[0]}\n`}
 teks += `GianaQlnBot`
